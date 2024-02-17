@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}   
+.box{
+    border: 1px solid wheat;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:gray;
+    align-items: center;
+}p{
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+}
+button{
+    height: 30px;
+    margin-left: 5px;
+    background-color: green;
+    border-radius: 10px;
+}

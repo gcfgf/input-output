@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="header"  >
+        <div class="h2">
+            <h2 style="color:gold;" >Child Component</h2>
+        </div>
+        <div class="box">
+            <input type="text" [(ngModel)]="value" placeholder="Enter Value">
+            <button (click)="send()">Send</button>
+            <button (click)="reset()">Reset</button>
+            <p>{{nameData}}</p>
+        </div>
+        
+    </div>
+</body>
+</html>
